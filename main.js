@@ -1,12 +1,3 @@
-/*HOVER BOTÓN ENVIAR CON JQUERY*/
-$(document).ready(function(){
-    $(".btn").hover(function(){
-        $(this).css("background-color", "#0d7ef0");
-    }, function(){
-        $(this).css("background-color", "#0dcaf0");
-    });
-});
-
 /*TOOLTIPS BOTÓN ENVIAR CON BOOTSTRAP */
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
@@ -25,3 +16,12 @@ for (let i = 0; i < h1Titles.length; i++) {
         this.style.color = '';
     });
 }
+
+/*HOVER BOTÓN ENVIAR CON JQUERY*/
+// $(document).ready(function(){
+//     $(".btn").hover(function(){
+//         $(this).css("background-color", "#0d7ef0");
+//     }, function(){
+//         $(this).css("background-color", "#0dcaf0");
+//     });
+// });
