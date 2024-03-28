@@ -18,10 +18,10 @@ for (let i = 0; i < h1Titles.length; i++) {
 }
 
 /*HOVER BOTÓN ENVIAR CON JQUERY*/
-// $(document).ready(function(){
-//     $(".btn").hover(function(){
-//         $(this).css("background-color", "#0d7ef0");
-//     }, function(){
-//         $(this).css("background-color", "#0dcaf0");
-//     });
-// });
+$(document).ready(function(){
+    $(".btn").hover(function(){
+        $(this).css("background-color", "#0d7ef0");
+    }, function(){
+        $(this).css("background-color", "#0dcaf0");
+    });
+});
